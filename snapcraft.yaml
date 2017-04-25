@@ -20,3 +20,4 @@ parts:
     plugin: nodejs
     npm-run: [build]
     node-packages: [handlebars]
+    install: cp -R dist/* $SNAPCRAFT_PART_INSTALL/lib/node_modules/swagger-ui/dist/
